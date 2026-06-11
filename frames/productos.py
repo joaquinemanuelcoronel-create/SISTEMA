@@ -10,5 +10,13 @@ def crear_productos(padre):
         bg="#f2f2f2",
         fg="#2c3e50"
     ).pack(pady=30)
+ 
+    tk.Label(
+        frame,
+        text="Listas",
+        font=("Arial", 24, "bold"),
+        bg="#f2f2f2",
+        fg="#2c3e50"
+    ).pack(pady=30)
 
     return frame
